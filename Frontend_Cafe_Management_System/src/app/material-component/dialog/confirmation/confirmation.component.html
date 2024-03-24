@@ -1,0 +1,9 @@
+<mat-dialog-content class="mat-typography">
+    <h5>Are you sure want to {{details.message}} ?</h5>           <!--displaying a message-->
+</mat-dialog-content>
+
+<!--adding some buttons-->
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="primary" (click)="handleChangeAction()">Yes</button>
+    <button mat-raised-button mat-dialog-close>No</button>
+</mat-dialog-actions>
